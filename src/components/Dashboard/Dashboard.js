@@ -1,6 +1,8 @@
 import React, { createContext } from 'react';
 import Recharts1 from '../Recharts/Recharts1';
 import Recharts2 from '../Recharts/Recharts2';
+import Recharts3 from '../Recharts/Recharts3';
+import Recharts4 from '../Recharts/Recharts4';
 
 export const  ChartsContext = createContext('')
 const Dashboard = () => {
@@ -50,6 +52,12 @@ const Dashboard = () => {
                 </div>
                 <div>
                     <Recharts2/>
+                </div>
+                <div>
+                    <Recharts3/>
+                </div>
+                <div>
+                    <Recharts4/>
                 </div>
             </div>
         </ChartsContext.Provider>
