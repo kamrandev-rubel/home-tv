@@ -5,7 +5,7 @@ import { ChartsContext } from '../Dashboard/Dashboard';
 const Recharts2 = () => {
 const data = useContext(ChartsContext)
     return (
-        <ComposedChart width={730} height={250} data={data}>
+        <ComposedChart width={650} height={300} data={data}>
             <XAxis dataKey="month" />
             <YAxis />
             <Tooltip />

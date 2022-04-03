@@ -46,7 +46,7 @@ const Dashboard = () => {
     ]
     return (
         <ChartsContext.Provider value={data} >
-            <div className='grid grid-cols-2 gap-10 w-[90%] mx-auto mt-5'>
+            <div className='grid grid-cols-2 grid-rows-2 gap-10  w-[90%] mx-auto mt-5'>
                 <div>
                     <Recharts1 />
                 </div>
