@@ -8,10 +8,9 @@ const Review = () => {
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])
-    console.log(reviews);
     return (
         <div>
-            <h2>All Customer Reviews</h2>
+            <h2 className='text-[5.5vw] font-[700] text-[#1d1d1f] my-5'>All Customer Reviews</h2>
             {
                 reviews.map(review => <CustomerReview key={review.id} review={review}/>)
             }
