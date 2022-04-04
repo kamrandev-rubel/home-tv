@@ -22,7 +22,7 @@ const Home = () => {
                     <img src={image} alt="" className='rounded-md' />
                 </div>
             </div>
-            <div className='w-[90%] mx-auto gri'>
+            <div className='w-[90%] mx-auto'>
                 <h1 className='lg:text-5xl font-[700] text-[#1d1d1f] my-10'>Customer Review</h1>
                 <div className='grid grid-cols-3'>
                     <article className='shadow-lg'>
