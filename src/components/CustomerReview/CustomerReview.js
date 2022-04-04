@@ -5,7 +5,7 @@ import { DynamicStar } from 'react-dynamic-star';
 const CustomerReview = ({ review }) => {
     const { name, picture, country, rating, people, review_text, review_time } = review;
     return (
-            <article className='shadow-lg lg:w-6/12 md:w-9/12 w-11/12 mx-auto mb-10 p-4'>
+            <article className='bg-white rounded-lg shadow-lg lg:w-6/12 md:w-9/12 w-11/12 mx-auto mb-10 p-4'>
             <div className="flex items-center flex-col md:flex-row lg:flex-row sm:flex-row mb-4 space-x-4">
                 <img className="w-10 h-10 rounded-full" src={picture} alt="" />
                 <p>{name} </p>
