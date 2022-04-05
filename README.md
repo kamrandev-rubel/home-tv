@@ -1,7 +1,7 @@
 # Home Tv
 
 ## Live Link
-https://github.com/facebook/create-react-app
+https://cosmic-malasada-c678e7.netlify.app/
 
 - Five pages have been created on this site
 - Create a fancy review site
