@@ -25,7 +25,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='w-[90%] mx-auto'>
-                <h1 className='text-[5.5vw] md:text-[3.5vw] lg:text-[3.5vw] font-[700] text-[#1d1d1f] my-10'>Customer Review ({homeReviews3.length})</h1>
+                <h1 className='text-[5.5vw] md:text-[3.5vw] lg:text-[3.5vw] font-[700] text-[#1d1d1f] my-10 text-center'>Customer Review ({homeReviews3.length})</h1>
                 <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                     {
                         homeReviews3.map(homeReview => <HomePageReview
