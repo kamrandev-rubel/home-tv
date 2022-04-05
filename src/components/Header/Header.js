@@ -14,7 +14,7 @@ const Header = () => {
                         <span className="self-center text-xl font-semibold whitespace-nowrap ">Home Tv</span>
                     </Link>
                     <button onClick={()=>setOpen(!open)} className="inline-flex items-center p-1.5 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="mobile-menu" aria-expanded="false">
-                        {open ? <BiMenu className='h-7 w-7' /> : <CgCloseO className='h-7 w-7'/>}
+                        {open ? <CgCloseO className='h-7 w-7' /> : <BiMenu className='h-7 w-7' />}
                     </button>
                     <div className={` w-full md:block md:w-auto  duration-1000 ease-in-out ${open ? 'block]':'hidden'} `}>
                         <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 text-md md:font-medium">
