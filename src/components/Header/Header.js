@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BiMenu } from 'react-icons/bi'
 import { CgCloseO } from 'react-icons/cg'
+import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
     const [open, setOpen] = useState(false)
@@ -18,19 +19,19 @@ const Header = () => {
                     <div className={` w-full md:block md:w-auto  duration-1000 ease-in-out ${open ? 'block]':'hidden'} `}>
                         <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 text-md md:font-medium">
                             <li>
-                                <Link to="/" className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 md:border-0 md:p-0">Home</Link>
+                                <CustomLink to="/" className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 md:border-0 md:p-0 font-[550] text-lg">Home</CustomLink>
                             </li>
                             <li>
-                                <Link to="/review" className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100  md:border-0 md:p-0">Review</Link>
+                                <CustomLink to="/review" className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100  md:border-0 md:p-0 font-[550] text-lg">Review</CustomLink>
                             </li>
                             <li>
-                                <Link to="/dashboard" className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 md:border-0 md:p-0">Dashboard</Link>
+                                <CustomLink to="/dashboard" className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 md:border-0 md:p-0 font-[550] text-lg">Dashboard</CustomLink>
                             </li>
                             <li>
-                                <Link to="/blogs" className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100  md:border-0 md:p-0">Blogs</Link>
+                                <CustomLink to="/blogs" className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100  md:border-0 md:p-0 font-[550] text-lg">Blogs</CustomLink>
                             </li>
                             <li>
-                                <Link to="/about" className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 md:border-0 md:p-0">About</Link>
+                                <CustomLink to="/about" className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 md:border-0 md:p-0 font-[550] text-lg">About</CustomLink>
                             </li>
                         </ul>
                     </div>
